@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: lighter;
     font-size: 2rem;
-    line-height: 2.2rem;
+    line-height: 3.2rem;
 
     color: #4AC959;
 }
@@ -46,7 +46,7 @@
     font-style: bold;
     font-style: normal;
     font-size: 3rem;
-    line-height: 3.2rem;
+    line-height: 4.2rem;
 }
 
 .get-this-done {
@@ -94,4 +94,18 @@
 .footer {
     width: 100vw;
 }
+
+@media (max-width:1119px) {
+    .side-arrow-img{
+        margin-top: 150px;
+       width: 50vw;
+    }
+
+    .home-picture {
+        margin-top: 150px;
+        margin-right: 50px;
+        width: 30vw;
+    }
+}
+
 
