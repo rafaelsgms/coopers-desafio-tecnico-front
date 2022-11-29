@@ -4,7 +4,7 @@ import './style.css';
 
 export default function Login({ loginIsOpen, handleCloseLogin }) {
     return (
-        <Modal
+        <Modal 
             isOpen={loginIsOpen}
             onRequestClose={handleCloseLogin}
 

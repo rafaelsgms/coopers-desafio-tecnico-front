@@ -96,9 +96,14 @@
 }
 
 @media (max-width:1119px) {
-    .side-arrow-img{
+    .header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .side-arrow-img {
         margin-top: 150px;
-       width: 50vw;
+        width: 50vw;
     }
 
     .home-picture {
@@ -107,5 +112,3 @@
         width: 30vw;
     }
 }
-
-
