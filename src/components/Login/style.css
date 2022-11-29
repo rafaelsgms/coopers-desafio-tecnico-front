@@ -1,0 +1,61 @@
+.image-left {
+    height: 20rem;
+}
+
+.close-btn {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 35rem;
+    margin-top: 1rem;
+
+}
+
+.sign-in {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.access {
+    color: #4AC959;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.right {
+    width: 25rem;
+}
+
+.input-form {
+    width: 19rem;
+    padding: .5rem .5rem;
+    background: #FFFFFF;
+    border: 1px solid #959595;
+    border-radius: .5rem;
+}
+
+.label-form {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: .5rem;
+}
+
+.sign-in-btn {
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    width: 19rem;
+    padding: 10px 5px;
+    border-radius: .25rem;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    background: #4AC959;
+}

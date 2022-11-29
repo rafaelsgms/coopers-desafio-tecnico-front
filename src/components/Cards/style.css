@@ -1,0 +1,84 @@
+.container-cards {
+    padding: 0.5rem 7rem;
+}
+
+.green-box {
+    position: absolute;
+    background: #4AC959;
+    border-radius: .5rem;
+    width: 55rem;
+    height: 25rem;
+    padding: 3.5rem 5rem;
+}
+
+.good-things {
+    color: #ffff;
+}
+
+.space {
+    gap: 1.3rem;
+    padding: 7.5rem 2rem;
+}
+
+.space-inside-cards {
+    padding: .5rem 1.3rem;
+    gap: 1rem;
+}
+
+.first-card, .second-card, .third-card {
+    position: relative;
+    background-color: #ffff;
+    width: 20rem;
+    border-radius: .8rem;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.198454);
+    height: 25rem;
+
+}
+
+.first-img {
+    position: absolute;
+    width: 20rem;
+}
+
+.icone-coopers {
+    position: relative;
+    margin-left: 14rem;
+    margin-top: 9rem;
+    height: 3rem;
+}
+
+.function-btn {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #9499B3;
+    border: 1px solid #9499B3;
+    background-color: #ffff;
+    width: 5rem;
+    border-radius: .8rem;
+}
+
+.cards-text {
+    font-family: 'Montserrat';
+    color: #312F4F;
+}
+
+.read-more {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    color: #42D76B;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+}
+
+.gallery-bullets {
+    padding: 0rem 29rem;
+}
+
+@media (max-width:1119px) {
+    .space, .green-box {
+        flex-direction: column;
+        width: 90vw;
+    }
+}
+
