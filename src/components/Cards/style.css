@@ -76,9 +76,16 @@
 }
 
 @media (max-width:1119px) {
-    .space, .green-box {
+    .space {
         flex-direction: column;
         width: 90vw;
+    }
+    
+    .green-box {
+        flex-direction: column;
+        padding: 20px 50px;
+        width: 60vw;
+        height: 190vh;
     }
 }
 
