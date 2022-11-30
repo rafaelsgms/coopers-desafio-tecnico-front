@@ -25,7 +25,9 @@
     gap: 1rem;
 }
 
-.first-card, .second-card, .third-card {
+.first-card,
+.second-card,
+.third-card {
     position: relative;
     background-color: #ffff;
     width: 20rem;
@@ -78,14 +80,13 @@
 @media (max-width:1119px) {
     .space {
         flex-direction: column;
-        width: 90vw;
+        width: 70vw;
     }
-    
+
     .green-box {
         flex-direction: column;
-        padding: 20px 50px;
+        padding: 30px 50px;
         width: 60vw;
         height: 190vh;
     }
 }
-
