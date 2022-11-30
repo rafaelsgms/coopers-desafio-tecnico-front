@@ -1,6 +1,3 @@
-.container-form {
-    padding: 4rem 19rem;
-}
 
 .woman-img {
     padding: 0 13rem;
@@ -13,8 +10,11 @@
 }
 
 .form-section {
-    padding: 3rem 3rem;
+    padding: 5rem 3rem;
     width: 45rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     box-shadow: 0px 8px 16px rgba(6, 21, 43, 0.08);
     border-radius: 1rem;
 }
@@ -73,6 +73,7 @@
 @media (max-width: 1119px) {
     .form-section {
          width: 400px;
+         margin-left: 30px;
     }
     .container-form  {
         display: flex;

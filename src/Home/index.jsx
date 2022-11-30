@@ -12,18 +12,19 @@ import ToDoDone from '../components/ToDoDone'
 import './style.css'
 import { useNavigate } from "react-router-dom";
 
-Modal.setAppElement("#root");
+// Modal.setAppElement("#root");
 
 function Home() {
-  // const Navigate = useNavigate();
-  const [loginIsOpen, setIsOpen] = useState(false);
-  function handleOpenLogin() {
-    setIsOpen(true);
-  }
+  const [modalLoginOpen, setModalIsOpen] = useState(false);
+//   // const Navigate = useNavigate();
+//   const [loginIsOpen, setIsOpen] = useState(false);
+//   function handleOpenLogin() {
+//     setIsOpen(true);
+//   }
 
-  function handleCloseLogin() {
-    setIsOpen(false);
-  }
+//   function handleCloseLogin() {
+//     setIsOpen(false);
+//   }
 
   // const redirectTo = () => {
   //   Navigate("/tododone");
@@ -33,12 +34,17 @@ function Home() {
     <div className='container-home'>
       <div className="header flex-center">
         <img src={Logo} alt="logo" />
-        <button
+        <button onClick={() => setModalIsOpen (true)}
           className='btn-login'
-          onClick={handleOpenLogin}
+          // onClick={handleOpenLogin}
         >
           Entrar
         </button>
+     {modalLoginOpen ? (
+     <Login
+     onClose={() => setModalIsOpen(false)}
+     />
+     ) : null}
       </div>
       <div className='organize-text flex-column'>
         <h1 className='organize-txt'>Organize</h1>
@@ -46,7 +52,6 @@ function Home() {
         <h3 className='get-this-done'>The only way to get things done</h3>
         <button 
         className='to-do-list-btn'
-        onClick={() => redirectTo()}
         >Go to To-do list</button>
       </div>
       <div className='side-arrow flex-center'>
@@ -63,10 +68,6 @@ function Home() {
         <FormSpace />
       </main>
       <img className='footer' src={Footer} alt="" />
-      <Login
-        loginIsOpen={loginIsOpen}
-        handleCloseLogin={handleCloseLogin}
-      />
     </div>
   )
 }

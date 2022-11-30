@@ -4,7 +4,6 @@ import './style.css'
 
 export default function FormSpace() {
     return (
-        <div className='container-form'>
             <div className='form-section'>
                 <img className='woman-img' src={WomanImg} alt="" />
                 <form className='form-spaces flex-column'>
@@ -26,6 +25,5 @@ export default function FormSpace() {
                     <button className='send-btn'>SEND NOW</button>
                 </form>
             </div>
-        </div>
     )
 }

@@ -70,7 +70,10 @@
     border-radius: 0.5rem;
     padding: 1rem 2.2rem;
     width: 12rem;
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
 }
+
 
 .side-arrow {
     justify-content: flex-end;
