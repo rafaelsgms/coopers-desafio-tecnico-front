@@ -1,36 +1,10 @@
-import Modal from "react-modal";
 import Image1 from '../../assets/login/image1.svg';
 import './style.css';
-import { useState } from "react";
 
-export default function Login({ loginIsOpen, handleCloseLogin, onClose = () => {}}) {
+export default function Login({onClose = () => {}}) {
 
-  
     return (
-        // <Modal 
-        //     isOpen={loginIsOpen}
-        //     onRequestClose={handleCloseLogin}
 
-        //     style={{
-        //         overlay: {
-        //             display: 'flex',
-        //             flexDirection: 'column',
-        //             alignItems: 'flex-end',
-        //             justifyContent: 'flex-end',
-        //             backgroundColor: '#0C0C0C',
-        //             opacity: '0.95',
-        //             zIndex: '4',
-
-        //         },
-        //         content: {
-        //             opacity: 'none',
-        //             border: 'none',
-        //             width: '700px',
-        //             marginLeft: '250px',
-        //             padding: '10px 30px'
-        //         }
-        //     }}
-        // >
             <div className='login-div flex-column'>
                 <div className="container-form">
                 <button onClick={onClose}
@@ -54,6 +28,5 @@ export default function Login({ loginIsOpen, handleCloseLogin, onClose = () => {
                 </div>
                 </div>
             </div>
-        // </Modal>
     )
 }

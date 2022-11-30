@@ -1,7 +1,6 @@
 import { Routes, Route, Outlet, Navigate } from "react-router-dom";
-import Login from './components/Login'
 import Home from './Home'
-import ToDoDone from "./components/ToDoDone";
+
 
 const MainRoutes = () => {
     const ProtectedRoutes = ({ redirectTo }) => {
@@ -14,12 +13,10 @@ const MainRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cadastro" element={<Login />} />
-            <Route path="/tododone" element={<ToDoDone />} />
-{/* 
             <Route element={<ProtectedRoutes redirectTo="/" />}>
-            </Route> */}
-        </Routes>
+        <Route path="/" element={<Home />} />
+      </Route>
+    </Routes>
     );
 };
 
