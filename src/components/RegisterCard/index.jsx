@@ -1,6 +1,6 @@
+import { Link, useNavigate } from "react-router-dom";
 import Image1 from '../../assets/login/image1.svg';
 import './style.css';
-import { Link, useNavigate } from "react-router-dom";
 
 export default function Register({ onClose = () => { } }) {
     const Navigate = useNavigate();
@@ -15,9 +15,9 @@ export default function Register({ onClose = () => { } }) {
                         <h1 className='sign-in'>Register</h1>
                         <h2 className='access'>to access your list</h2>
                         <form className='login-form flex-column'>
-                        <label className='label-form'>Name:</label>
+                            <label className='label-form'>Name:</label>
                             <input className='input-form' type="text" name="" id="" />
-                            <label className='label-form'>User:</label>
+                            <label className='label-form'>Email:</label>
                             <input className='input-form' type="text" name="" id="" />
                             <label className='label-form'>Password:</label>
                             <input className='input-form' type="password" name="" id="" />

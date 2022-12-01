@@ -1,6 +1,6 @@
+import { Link, useNavigate } from "react-router-dom";
 import Image1 from '../../assets/login/image1.svg';
 import './style.css';
-import { Link, useNavigate } from "react-router-dom";
 
 export default function Login({ onClose = () => { } }) {
     const Navigate = useNavigate();
@@ -27,7 +27,7 @@ export default function Login({ onClose = () => { } }) {
                             <button className='sign-in-btn'>Sign in</button>
                             <span className="redirect-login">
                                 Já possui uma conta? Faça seu{" "}
-                                <Link to={"/cadastro"} className="">
+                                <Link to={"/cadastro"} className="login-link">
                                     <span className="">Login</span>
                                 </Link>
                             </span>
