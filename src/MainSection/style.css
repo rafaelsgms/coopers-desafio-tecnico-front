@@ -1,0 +1,117 @@
+@import url("../styles/alignments.css");
+
+.container-home {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.header {
+    padding: 2rem 4.2rem;
+    justify-content: space-between;
+}
+
+.btn-login {
+    cursor: pointer;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    padding: 0.8rem 3.2rem;
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    z-index: 4;
+}
+
+.organize-text {
+    font-weight: 700;
+    padding: 3rem 3.2rem;
+    justify-content: flex-start;
+}
+
+.daily-jobs {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 3.2rem;
+
+    color: #4AC959;
+}
+
+.organize-txt {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 4.2rem;
+}
+
+.get-this-done {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-style: bold;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+}
+
+.to-do-list-btn {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-style: bold;
+    margin-top: 1.5rem;
+    border: none;
+    color: #FFFFFF;
+    background: #4AC959;
+    border-radius: 0.5rem;
+    padding: 1rem 2.2rem;
+    width: 12rem;
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+}
+
+
+.side-arrow {
+    justify-content: flex-end;
+}
+
+.side-arrow img {
+    position: absolute;
+    z-index: 4;
+}
+
+.home-picture img {
+    padding: 0 3.2rem;
+    position: relative;
+}
+
+.to-do-list-band img {
+    margin-top: 15rem;
+    width: 100%;
+}
+
+.footer {
+    width: 100vw;
+}
+
+@media (max-width:1119px) {
+    .header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .side-arrow-img {
+        margin-top: 150px;
+        width: 50vw;
+    }
+
+    .home-picture {
+        margin-top: 150px;
+        margin-right: 50px;
+        width: 30vw;
+    }
+}

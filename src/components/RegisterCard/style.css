@@ -1,10 +1,10 @@
-.login-div {
+.login-div-register {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: #0C0C0C;
+    background: #4AC959;
     opacity: 0.8;
     position: fixed;
     top: 0;
@@ -88,12 +88,11 @@
     background: #4AC959;
 }
 
-.login-link, .redirect-login {
+.register-link, .redirect-register {
     color: #4AC959;
     margin-top: 10px;
     font-family: 'Montserrat';
 }
-
 
 @media (max-width:1119px) {
 .container-form {
@@ -107,10 +106,6 @@
 
 .close-btn {
     margin-left: 300px;
-}
-
-.login-link, .redirect-login {
-    width: 200px;
 }
 
 }
