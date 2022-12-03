@@ -13,7 +13,7 @@ const MainRoutes = () => {
     };
 
     return (
-        <Routes> 
+        <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cadastro" element={<Register />} />
             <Route element={<ProtectedRoutes redirectTo="/" />}>

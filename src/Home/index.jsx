@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Modal from "react-modal"
 import Footer from '../assets/home/footer.svg'
 import HomeImage from '../assets/home/home-picture.svg'
 import Logo from '../assets/home/logo-home.svg'
@@ -10,48 +9,31 @@ import FormSpace from '../components/FormSpace'
 import Login from '../components/Login'
 import ToDoDone from '../components/ToDoDone'
 import './style.css'
-import { useNavigate } from "react-router-dom";
-
-// Modal.setAppElement("#root");
 
 function Home() {
   const [modalLoginOpen, setModalIsOpen] = useState(false);
-//   // const Navigate = useNavigate();
-//   const [loginIsOpen, setIsOpen] = useState(false);
-//   function handleOpenLogin() {
-//     setIsOpen(true);
-//   }
-
-//   function handleCloseLogin() {
-//     setIsOpen(false);
-//   }
-
-  // const redirectTo = () => {
-  //   Navigate("/tododone");
-  // };
 
   return (
     <div className='container-home'>
       <div className="header flex-center">
         <img src={Logo} alt="logo" />
-        <button onClick={() => setModalIsOpen (true)}
+        <button onClick={() => setModalIsOpen(true)}
           className='btn-login'
-          // onClick={handleOpenLogin}
         >
           Entrar
         </button>
-     {modalLoginOpen ? (
-     <Login
-     onClose={() => setModalIsOpen(false)}
-     />
-     ) : null}
+        {modalLoginOpen ? (
+          <Login
+            onClose={() => setModalIsOpen(false)}
+          />
+        ) : null}
       </div>
       <div className='organize-text flex-column'>
         <h1 className='organize-txt'>Organize</h1>
         <h2 className='daily-jobs'>your daily jobs</h2>
         <h3 className='get-this-done'>The only way to get things done</h3>
-        <button 
-        className='to-do-list-btn'
+        <button
+          className='to-do-list-btn'
         >Go to To-do list</button>
       </div>
       <div className='side-arrow flex-center'>

@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Image1 from '../../assets/login/image1.svg';
 import './style.css';
 
-export default function Register({ onClose = () => { } }) {
+export default function Register() {
     const Navigate = useNavigate();
 
     return (

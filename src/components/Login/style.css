@@ -12,7 +12,7 @@
     right: 0;
     bottom: 0;
     z-index: 100;
-    
+
 }
 
 .container-form {
@@ -20,9 +20,10 @@
     width: 44rem;
     padding: 2.5rem .5rem;
 }
+
 .image-left {
     width: 18rem;
-   height: 18rem;
+    height: 18rem;
     margin-bottom: 5rem;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .login-form {
-   width: 40rem;
+    width: 40rem;
 }
 
 .input-form {
@@ -88,7 +89,8 @@
     background: #4AC959;
 }
 
-.login-link, .redirect-login {
+.login-link,
+.redirect-login {
     color: #4AC959;
     margin-top: 10px;
     font-family: 'Montserrat';
@@ -96,21 +98,23 @@
 
 
 @media (max-width:1119px) {
-.container-form {
-    width: 400px;
-    height: 500px;
-}
+    .container-form {
+        width: 400px;
+        height: 500px;
+    }
 
-.input-form, .sign-in-btn {
-    width: 150px;
-}
+    .input-form,
+    .sign-in-btn {
+        width: 150px;
+    }
 
-.close-btn {
-    margin-left: 300px;
-}
+    .close-btn {
+        margin-left: 300px;
+    }
 
-.login-link, .redirect-login {
-    width: 200px;
-}
+    .login-link,
+    .redirect-login {
+        width: 200px;
+    }
 
 }
